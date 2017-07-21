@@ -147,10 +147,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="kdtree.h" />
+    <ClInclude Include="MyMesh.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="kdtree.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyMesh.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
